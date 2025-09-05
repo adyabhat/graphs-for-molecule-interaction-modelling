@@ -1,2 +1,2 @@
 # graphs-for-molecule-interaction-modelling
-Modelling food-drug and drug-drug interactions using graphs.
+Used a graph to model drug-drug and food-drug interactions in two separate graphs, and a GNN model with graph convolution and attention layers was trained on the graphs. Evaluated the effect of using contrastive loss function in training. Observed about 4\% increase in accuracy of interaction prediction in the drug-drug graph, and 5\% increase in the food-drug graph, when contrastive loss was used, in contrast to using Binary Cross Entropy loss. Tools Used: Python, Pytorch, Torch-geometric, Networkx
